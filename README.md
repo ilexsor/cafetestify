@@ -1,3 +1,9 @@
 # https://github.com/ilexsor/cafetestify
 
-## Финальное задание 7 спринта
+### _Финальное задание 7 спринта_
+
+### Добавлены функции тестирования
+
+- TestMainHandlerWhenSityIncorrect
+- TestMainHandlerWhenCountMoreThanTotal
+- TestMainHandlerWhenCorrect
