@@ -116,7 +116,7 @@ func TestMainHandlerWhenSityIncorrect(t *testing.T) {
 	})
 
 	t.Run("count=5&city=saratov", func(t *testing.T) {
-		req := httptest.NewRequest("GET", "/cafe?count=5&city=", nil)
+		req := httptest.NewRequest("GET", "/cafe?count=5&city=saratov", nil)
 
 		responseRecorder := httptest.NewRecorder()
 		handler := http.HandlerFunc(mainHandle)
